@@ -13,12 +13,12 @@
     <model name="forest">
       <static>true</static>
       <link name="tree0">
-        <pose>5.88085216381 2.63184822062 0 0 0 1.96881807761 </pose>
+        <pose>-1.14339201951 4.96459143546 0 0 0 1.82972479597 </pose>
         <visual name="visual">
           <geometry>
             <mesh>
               <uri>file://models_low_res/Tree3.dae</uri>
-              <scale>0.824003936437 0.824003936437 0.824003936437</scale>
+              <scale>0.375013613389 0.375013613389 0.375013613389</scale>
             </mesh>
           </geometry>
         </visual>
@@ -26,119 +26,119 @@
           <geometry>
             <mesh>
               <uri>file://models_low_res/Tree3.dae</uri>
-              <scale>0.824003936437 0.824003936437 0.824003936437</scale>
+              <scale>0.375013613389 0.375013613389 0.375013613389</scale>
             </mesh>
           </geometry>
           <max_contacts>0</max_contacts>
         </collision>
       </link>
       <link name="tree1">
-        <pose>3.66978531684 -2.07779252723 0 0 0 2.67957853632 </pose>
+        <pose>0.0912808127576 0.2680292569 0 0 0 3.27019662703 </pose>
         <visual name="visual">
           <geometry>
             <mesh>
-              <uri>file://models_low_res/Tree1.dae</uri>
-              <scale>0.671898355093 0.671898355093 0.671898355093</scale>
+              <uri>file://models_low_res/Tree5.dae</uri>
+              <scale>0.68446870116 0.68446870116 0.68446870116</scale>
             </mesh>
           </geometry>
         </visual>
         <collision name="collision">
           <geometry>
             <mesh>
-              <uri>file://models_low_res/Tree1.dae</uri>
-              <scale>0.671898355093 0.671898355093 0.671898355093</scale>
+              <uri>file://models_low_res/Tree5.dae</uri>
+              <scale>0.68446870116 0.68446870116 0.68446870116</scale>
             </mesh>
           </geometry>
           <max_contacts>0</max_contacts>
         </collision>
       </link>
       <link name="tree2">
-        <pose>6.54118483655 4.73237342436 0 0 0 6.16014928794 </pose>
+        <pose>2.44482076123 4.97706485122 0 0 0 2.94884413704 </pose>
         <visual name="visual">
           <geometry>
             <mesh>
-              <uri>file://models_low_res/Tree6.dae</uri>
-              <scale>0.370977915693 0.370977915693 0.370977915693</scale>
+              <uri>file://models_low_res/Tree1.dae</uri>
+              <scale>0.985531158263 0.985531158263 0.985531158263</scale>
             </mesh>
           </geometry>
         </visual>
         <collision name="collision">
           <geometry>
             <mesh>
-              <uri>file://models_low_res/Tree6.dae</uri>
-              <scale>0.370977915693 0.370977915693 0.370977915693</scale>
+              <uri>file://models_low_res/Tree1.dae</uri>
+              <scale>0.985531158263 0.985531158263 0.985531158263</scale>
             </mesh>
           </geometry>
           <max_contacts>0</max_contacts>
         </collision>
       </link>
       <link name="tree3">
-        <pose>3.44824149665 -7.62650156117 0 0 0 3.99521098849 </pose>
+        <pose>-0.161895015295 -2.94300237778 0 0 0 0.772491835871 </pose>
         <visual name="visual">
           <geometry>
             <mesh>
-              <uri>file://models_low_res/Tree6.dae</uri>
-              <scale>0.390445162275 0.390445162275 0.390445162275</scale>
+              <uri>file://models_low_res/Tree3.dae</uri>
+              <scale>0.888482527515 0.888482527515 0.888482527515</scale>
             </mesh>
           </geometry>
         </visual>
         <collision name="collision">
           <geometry>
             <mesh>
-              <uri>file://models_low_res/Tree6.dae</uri>
-              <scale>0.390445162275 0.390445162275 0.390445162275</scale>
+              <uri>file://models_low_res/Tree3.dae</uri>
+              <scale>0.888482527515 0.888482527515 0.888482527515</scale>
             </mesh>
           </geometry>
           <max_contacts>0</max_contacts>
         </collision>
       </link>
       <link name="tree4">
-        <pose>5.46491602898 4.63054812311 0 0 0 1.25036496726 </pose>
+        <pose>-4.36859559715 -1.49132648749 0 0 0 6.25908861271 </pose>
         <visual name="visual">
           <geometry>
             <mesh>
-              <uri>file://models_low_res/Tree6.dae</uri>
-              <scale>0.525035981512 0.525035981512 0.525035981512</scale>
+              <uri>file://models_low_res/Tree5.dae</uri>
+              <scale>0.430806914766 0.430806914766 0.430806914766</scale>
             </mesh>
           </geometry>
         </visual>
         <collision name="collision">
           <geometry>
             <mesh>
-              <uri>file://models_low_res/Tree6.dae</uri>
-              <scale>0.525035981512 0.525035981512 0.525035981512</scale>
+              <uri>file://models_low_res/Tree5.dae</uri>
+              <scale>0.430806914766 0.430806914766 0.430806914766</scale>
             </mesh>
           </geometry>
           <max_contacts>0</max_contacts>
         </collision>
       </link>
       <link name="tree5">
-        <pose>0.769938068429 -7.5459713602 0 0 0 4.28719383534 </pose>
+        <pose>2.78980108092 4.88395331186 0 0 0 3.42122589299 </pose>
         <visual name="visual">
           <geometry>
             <mesh>
-              <uri>file://models_low_res/Tree5.dae</uri>
-              <scale>0.323584214436 0.323584214436 0.323584214436</scale>
+              <uri>file://models_low_res/Tree6.dae</uri>
+              <scale>0.553652591209 0.553652591209 0.553652591209</scale>
             </mesh>
           </geometry>
         </visual>
         <collision name="collision">
           <geometry>
             <mesh>
-              <uri>file://models_low_res/Tree5.dae</uri>
-              <scale>0.323584214436 0.323584214436 0.323584214436</scale>
+              <uri>file://models_low_res/Tree6.dae</uri>
+              <scale>0.553652591209 0.553652591209 0.553652591209</scale>
             </mesh>
           </geometry>
           <max_contacts>0</max_contacts>
         </collision>
       </link>
       <link name="tree6">
-        <pose>-6.19786848705 5.51702628763 0 0 0 1.97188017817 </pose>
+        <pose>1.83500371195 3.16597464963 0 0 0 3.78019094845 </pose>
         <visual name="visual">
           <geometry>
             <mesh>
               <uri>file://models_low_res/Tree5.dae</uri>
-              <scale>0.479398505031 0.479398505031 0.479398505031</scale>
+              <scale>0.65716402155 0.65716402155 0.65716402155</scale>
             </mesh>
           </geometry>
         </visual>
@@ -146,79 +146,79 @@
           <geometry>
             <mesh>
               <uri>file://models_low_res/Tree5.dae</uri>
-              <scale>0.479398505031 0.479398505031 0.479398505031</scale>
+              <scale>0.65716402155 0.65716402155 0.65716402155</scale>
             </mesh>
           </geometry>
           <max_contacts>0</max_contacts>
         </collision>
       </link>
       <link name="tree7">
-        <pose>2.73820995438 -0.0549021681553 0 0 0 5.28959673742 </pose>
+        <pose>2.40422879931 -1.90466975044 0 0 0 3.29107474399 </pose>
         <visual name="visual">
           <geometry>
             <mesh>
-              <uri>file://models_low_res/Tree5.dae</uri>
-              <scale>0.575756203925 0.575756203925 0.575756203925</scale>
+              <uri>file://models_low_res/Tree3.dae</uri>
+              <scale>0.630015271737 0.630015271737 0.630015271737</scale>
             </mesh>
           </geometry>
         </visual>
         <collision name="collision">
           <geometry>
             <mesh>
-              <uri>file://models_low_res/Tree5.dae</uri>
-              <scale>0.575756203925 0.575756203925 0.575756203925</scale>
+              <uri>file://models_low_res/Tree3.dae</uri>
+              <scale>0.630015271737 0.630015271737 0.630015271737</scale>
             </mesh>
           </geometry>
           <max_contacts>0</max_contacts>
         </collision>
       </link>
       <link name="tree8">
-        <pose>-7.1561636426 5.59520900706 0 0 0 5.02884284696 </pose>
+        <pose>4.1876805314 -2.07614942892 0 0 0 1.9557536673 </pose>
         <visual name="visual">
           <geometry>
             <mesh>
-              <uri>file://models_low_res/Tree6.dae</uri>
-              <scale>0.320549884829 0.320549884829 0.320549884829</scale>
+              <uri>file://models_low_res/Tree3.dae</uri>
+              <scale>0.539381995944 0.539381995944 0.539381995944</scale>
             </mesh>
           </geometry>
         </visual>
         <collision name="collision">
           <geometry>
             <mesh>
-              <uri>file://models_low_res/Tree6.dae</uri>
-              <scale>0.320549884829 0.320549884829 0.320549884829</scale>
+              <uri>file://models_low_res/Tree3.dae</uri>
+              <scale>0.539381995944 0.539381995944 0.539381995944</scale>
             </mesh>
           </geometry>
           <max_contacts>0</max_contacts>
         </collision>
       </link>
       <link name="tree9">
-        <pose>4.56655417587 -1.2458529011 0 0 0 3.18242311122 </pose>
+        <pose>-0.150415072917 -0.863343292803 0 0 0 1.56920254094 </pose>
         <visual name="visual">
           <geometry>
             <mesh>
-              <uri>file://models_low_res/Tree3.dae</uri>
-              <scale>0.478848867771 0.478848867771 0.478848867771</scale>
+              <uri>file://models_low_res/Tree6.dae</uri>
+              <scale>0.909645226715 0.909645226715 0.909645226715</scale>
             </mesh>
           </geometry>
         </visual>
         <collision name="collision">
           <geometry>
             <mesh>
-              <uri>file://models_low_res/Tree3.dae</uri>
-              <scale>0.478848867771 0.478848867771 0.478848867771</scale>
+              <uri>file://models_low_res/Tree6.dae</uri>
+              <scale>0.909645226715 0.909645226715 0.909645226715</scale>
             </mesh>
           </geometry>
           <max_contacts>0</max_contacts>
         </collision>
       </link>
       <link name="tree10">
-        <pose>-3.42474580326 -5.18269284343 0 0 0 4.09394396277 </pose>
+        <pose>-2.66703239941 2.07726790686 0 0 0 4.5290989847 </pose>
         <visual name="visual">
           <geometry>
             <mesh>
               <uri>file://models_low_res/Tree1.dae</uri>
-              <scale>0.485135523763 0.485135523763 0.485135523763</scale>
+              <scale>0.824420653711 0.824420653711 0.824420653711</scale>
             </mesh>
           </geometry>
         </visual>
@@ -226,39 +226,39 @@
           <geometry>
             <mesh>
               <uri>file://models_low_res/Tree1.dae</uri>
-              <scale>0.485135523763 0.485135523763 0.485135523763</scale>
+              <scale>0.824420653711 0.824420653711 0.824420653711</scale>
             </mesh>
           </geometry>
           <max_contacts>0</max_contacts>
         </collision>
       </link>
       <link name="tree11">
-        <pose>-3.78319170328 2.34206796518 0 0 0 1.07173000626 </pose>
+        <pose>3.77309783018 -3.66206723227 0 0 0 1.72254888044 </pose>
         <visual name="visual">
           <geometry>
             <mesh>
-              <uri>file://models_low_res/Tree3.dae</uri>
-              <scale>0.356050300764 0.356050300764 0.356050300764</scale>
+              <uri>file://models_low_res/Tree1.dae</uri>
+              <scale>0.896772686535 0.896772686535 0.896772686535</scale>
             </mesh>
           </geometry>
         </visual>
         <collision name="collision">
           <geometry>
             <mesh>
-              <uri>file://models_low_res/Tree3.dae</uri>
-              <scale>0.356050300764 0.356050300764 0.356050300764</scale>
+              <uri>file://models_low_res/Tree1.dae</uri>
+              <scale>0.896772686535 0.896772686535 0.896772686535</scale>
             </mesh>
           </geometry>
           <max_contacts>0</max_contacts>
         </collision>
       </link>
       <link name="tree12">
-        <pose>2.972928356 3.64880919026 0 0 0 0.635002633403 </pose>
+        <pose>-1.52810840823 0.59700457163 0 0 0 2.54865172067 </pose>
         <visual name="visual">
           <geometry>
             <mesh>
               <uri>file://models_low_res/Tree6.dae</uri>
-              <scale>0.880749744111 0.880749744111 0.880749744111</scale>
+              <scale>0.834793761277 0.834793761277 0.834793761277</scale>
             </mesh>
           </geometry>
         </visual>
@@ -266,39 +266,39 @@
           <geometry>
             <mesh>
               <uri>file://models_low_res/Tree6.dae</uri>
-              <scale>0.880749744111 0.880749744111 0.880749744111</scale>
+              <scale>0.834793761277 0.834793761277 0.834793761277</scale>
             </mesh>
           </geometry>
           <max_contacts>0</max_contacts>
         </collision>
       </link>
       <link name="tree13">
-        <pose>-2.55672814924 -4.3441920779 0 0 0 0.526077318357 </pose>
+        <pose>-2.51452848264 4.83653030992 0 0 0 3.17418771146 </pose>
         <visual name="visual">
           <geometry>
             <mesh>
-              <uri>file://models_low_res/Tree4.dae</uri>
-              <scale>0.343397561311 0.343397561311 0.343397561311</scale>
+              <uri>file://models_low_res/Tree1.dae</uri>
+              <scale>0.91811444521 0.91811444521 0.91811444521</scale>
             </mesh>
           </geometry>
         </visual>
         <collision name="collision">
           <geometry>
             <mesh>
-              <uri>file://models_low_res/Tree4.dae</uri>
-              <scale>0.343397561311 0.343397561311 0.343397561311</scale>
+              <uri>file://models_low_res/Tree1.dae</uri>
+              <scale>0.91811444521 0.91811444521 0.91811444521</scale>
             </mesh>
           </geometry>
           <max_contacts>0</max_contacts>
         </collision>
       </link>
       <link name="tree14">
-        <pose>6.44763878015 -3.50631548695 0 0 0 4.98328981598 </pose>
+        <pose>3.80833627438 -3.25356158932 0 0 0 5.64113580424 </pose>
         <visual name="visual">
           <geometry>
             <mesh>
               <uri>file://models_low_res/Tree6.dae</uri>
-              <scale>0.589759258327 0.589759258327 0.589759258327</scale>
+              <scale>0.351059487356 0.351059487356 0.351059487356</scale>
             </mesh>
           </geometry>
         </visual>
@@ -306,179 +306,99 @@
           <geometry>
             <mesh>
               <uri>file://models_low_res/Tree6.dae</uri>
-              <scale>0.589759258327 0.589759258327 0.589759258327</scale>
+              <scale>0.351059487356 0.351059487356 0.351059487356</scale>
             </mesh>
           </geometry>
           <max_contacts>0</max_contacts>
         </collision>
       </link>
       <link name="tree15">
-        <pose>-4.71474228985 4.92649359762 0 0 0 3.76115814976 </pose>
+        <pose>-0.155839657023 -0.588761074356 0 0 0 0.349267881767 </pose>
         <visual name="visual">
           <geometry>
             <mesh>
-              <uri>file://models_low_res/Tree1.dae</uri>
-              <scale>0.558040837933 0.558040837933 0.558040837933</scale>
+              <uri>file://models_low_res/Tree4.dae</uri>
+              <scale>0.640708967151 0.640708967151 0.640708967151</scale>
             </mesh>
           </geometry>
         </visual>
         <collision name="collision">
           <geometry>
             <mesh>
-              <uri>file://models_low_res/Tree1.dae</uri>
-              <scale>0.558040837933 0.558040837933 0.558040837933</scale>
+              <uri>file://models_low_res/Tree4.dae</uri>
+              <scale>0.640708967151 0.640708967151 0.640708967151</scale>
             </mesh>
           </geometry>
           <max_contacts>0</max_contacts>
         </collision>
       </link>
       <link name="tree16">
-        <pose>-2.30077256188 -3.48390465635 0 0 0 4.76397054453 </pose>
+        <pose>-0.471127910755 -4.18289473341 0 0 0 3.22049274385 </pose>
         <visual name="visual">
           <geometry>
             <mesh>
-              <uri>file://models_low_res/Tree1.dae</uri>
-              <scale>0.60559819109 0.60559819109 0.60559819109</scale>
+              <uri>file://models_low_res/Tree4.dae</uri>
+              <scale>0.649415510152 0.649415510152 0.649415510152</scale>
             </mesh>
           </geometry>
         </visual>
         <collision name="collision">
           <geometry>
             <mesh>
-              <uri>file://models_low_res/Tree1.dae</uri>
-              <scale>0.60559819109 0.60559819109 0.60559819109</scale>
+              <uri>file://models_low_res/Tree4.dae</uri>
+              <scale>0.649415510152 0.649415510152 0.649415510152</scale>
             </mesh>
           </geometry>
           <max_contacts>0</max_contacts>
         </collision>
       </link>
       <link name="tree17">
-        <pose>-4.532396619 1.03626602959 0 0 0 0.832718903051 </pose>
+        <pose>1.38760691583 4.23562351586 0 0 0 3.96102958379 </pose>
         <visual name="visual">
           <geometry>
             <mesh>
-              <uri>file://models_low_res/Tree2.dae</uri>
-              <scale>0.463771388312 0.463771388312 0.463771388312</scale>
+              <uri>file://models_low_res/Tree5.dae</uri>
+              <scale>0.783810950223 0.783810950223 0.783810950223</scale>
             </mesh>
           </geometry>
         </visual>
         <collision name="collision">
           <geometry>
             <mesh>
-              <uri>file://models_low_res/Tree2.dae</uri>
-              <scale>0.463771388312 0.463771388312 0.463771388312</scale>
+              <uri>file://models_low_res/Tree5.dae</uri>
+              <scale>0.783810950223 0.783810950223 0.783810950223</scale>
             </mesh>
           </geometry>
           <max_contacts>0</max_contacts>
         </collision>
       </link>
       <link name="tree18">
-        <pose>2.75474363216 -7.44483360355 0 0 0 3.57890724461 </pose>
+        <pose>-4.95286840576 3.89750955278 0 0 0 0.0754971129207 </pose>
         <visual name="visual">
           <geometry>
             <mesh>
-              <uri>file://models_low_res/Tree6.dae</uri>
-              <scale>0.784669991771 0.784669991771 0.784669991771</scale>
+              <uri>file://models_low_res/Tree4.dae</uri>
+              <scale>0.545840252008 0.545840252008 0.545840252008</scale>
             </mesh>
           </geometry>
         </visual>
         <collision name="collision">
           <geometry>
             <mesh>
-              <uri>file://models_low_res/Tree6.dae</uri>
-              <scale>0.784669991771 0.784669991771 0.784669991771</scale>
+              <uri>file://models_low_res/Tree4.dae</uri>
+              <scale>0.545840252008 0.545840252008 0.545840252008</scale>
             </mesh>
           </geometry>
           <max_contacts>0</max_contacts>
         </collision>
       </link>
       <link name="tree19">
-        <pose>-0.101676296007 -0.496677712069 0 0 0 2.92224576204 </pose>
-        <visual name="visual">
-          <geometry>
-            <mesh>
-              <uri>file://models_low_res/Tree2.dae</uri>
-              <scale>0.678165008416 0.678165008416 0.678165008416</scale>
-            </mesh>
-          </geometry>
-        </visual>
-        <collision name="collision">
-          <geometry>
-            <mesh>
-              <uri>file://models_low_res/Tree2.dae</uri>
-              <scale>0.678165008416 0.678165008416 0.678165008416</scale>
-            </mesh>
-          </geometry>
-          <max_contacts>0</max_contacts>
-        </collision>
-      </link>
-      <link name="tree20">
-        <pose>-5.95999288323 -7.63335127754 0 0 0 4.44770514839 </pose>
-        <visual name="visual">
-          <geometry>
-            <mesh>
-              <uri>file://models_low_res/Tree3.dae</uri>
-              <scale>0.599426346483 0.599426346483 0.599426346483</scale>
-            </mesh>
-          </geometry>
-        </visual>
-        <collision name="collision">
-          <geometry>
-            <mesh>
-              <uri>file://models_low_res/Tree3.dae</uri>
-              <scale>0.599426346483 0.599426346483 0.599426346483</scale>
-            </mesh>
-          </geometry>
-          <max_contacts>0</max_contacts>
-        </collision>
-      </link>
-      <link name="tree21">
-        <pose>-7.79217846885 -3.71615796692 0 0 0 1.28745215283 </pose>
-        <visual name="visual">
-          <geometry>
-            <mesh>
-              <uri>file://models_low_res/Tree3.dae</uri>
-              <scale>0.962361115869 0.962361115869 0.962361115869</scale>
-            </mesh>
-          </geometry>
-        </visual>
-        <collision name="collision">
-          <geometry>
-            <mesh>
-              <uri>file://models_low_res/Tree3.dae</uri>
-              <scale>0.962361115869 0.962361115869 0.962361115869</scale>
-            </mesh>
-          </geometry>
-          <max_contacts>0</max_contacts>
-        </collision>
-      </link>
-      <link name="tree22">
-        <pose>-6.49606799372 -2.63163574271 0 0 0 3.45194298272 </pose>
-        <visual name="visual">
-          <geometry>
-            <mesh>
-              <uri>file://models_low_res/Tree6.dae</uri>
-              <scale>0.78292899691 0.78292899691 0.78292899691</scale>
-            </mesh>
-          </geometry>
-        </visual>
-        <collision name="collision">
-          <geometry>
-            <mesh>
-              <uri>file://models_low_res/Tree6.dae</uri>
-              <scale>0.78292899691 0.78292899691 0.78292899691</scale>
-            </mesh>
-          </geometry>
-          <max_contacts>0</max_contacts>
-        </collision>
-      </link>
-      <link name="tree23">
-        <pose>-6.73771628991 6.06787610706 0 0 0 4.89887213994 </pose>
+        <pose>-0.774283871347 2.9910947649 0 0 0 3.31104563557 </pose>
         <visual name="visual">
           <geometry>
             <mesh>
               <uri>file://models_low_res/Tree5.dae</uri>
-              <scale>0.867958626146 0.867958626146 0.867958626146</scale>
+              <scale>0.818620482047 0.818620482047 0.818620482047</scale>
             </mesh>
           </geometry>
         </visual>
@@ -486,527 +406,7 @@
           <geometry>
             <mesh>
               <uri>file://models_low_res/Tree5.dae</uri>
-              <scale>0.867958626146 0.867958626146 0.867958626146</scale>
-            </mesh>
-          </geometry>
-          <max_contacts>0</max_contacts>
-        </collision>
-      </link>
-      <link name="tree24">
-        <pose>-1.88082566077 -6.24537605148 0 0 0 0.187879654734 </pose>
-        <visual name="visual">
-          <geometry>
-            <mesh>
-              <uri>file://models_low_res/Tree3.dae</uri>
-              <scale>0.96893942447 0.96893942447 0.96893942447</scale>
-            </mesh>
-          </geometry>
-        </visual>
-        <collision name="collision">
-          <geometry>
-            <mesh>
-              <uri>file://models_low_res/Tree3.dae</uri>
-              <scale>0.96893942447 0.96893942447 0.96893942447</scale>
-            </mesh>
-          </geometry>
-          <max_contacts>0</max_contacts>
-        </collision>
-      </link>
-      <link name="tree25">
-        <pose>3.9263774888 3.18377990931 0 0 0 4.68895144046 </pose>
-        <visual name="visual">
-          <geometry>
-            <mesh>
-              <uri>file://models_low_res/Tree5.dae</uri>
-              <scale>0.532968597772 0.532968597772 0.532968597772</scale>
-            </mesh>
-          </geometry>
-        </visual>
-        <collision name="collision">
-          <geometry>
-            <mesh>
-              <uri>file://models_low_res/Tree5.dae</uri>
-              <scale>0.532968597772 0.532968597772 0.532968597772</scale>
-            </mesh>
-          </geometry>
-          <max_contacts>0</max_contacts>
-        </collision>
-      </link>
-      <link name="tree26">
-        <pose>2.71594766119 5.34904796939 0 0 0 4.76617468493 </pose>
-        <visual name="visual">
-          <geometry>
-            <mesh>
-              <uri>file://models_low_res/Tree4.dae</uri>
-              <scale>0.377069215339 0.377069215339 0.377069215339</scale>
-            </mesh>
-          </geometry>
-        </visual>
-        <collision name="collision">
-          <geometry>
-            <mesh>
-              <uri>file://models_low_res/Tree4.dae</uri>
-              <scale>0.377069215339 0.377069215339 0.377069215339</scale>
-            </mesh>
-          </geometry>
-          <max_contacts>0</max_contacts>
-        </collision>
-      </link>
-      <link name="tree27">
-        <pose>5.63916458368 2.40663536739 0 0 0 3.49691984634 </pose>
-        <visual name="visual">
-          <geometry>
-            <mesh>
-              <uri>file://models_low_res/Tree3.dae</uri>
-              <scale>0.746201880603 0.746201880603 0.746201880603</scale>
-            </mesh>
-          </geometry>
-        </visual>
-        <collision name="collision">
-          <geometry>
-            <mesh>
-              <uri>file://models_low_res/Tree3.dae</uri>
-              <scale>0.746201880603 0.746201880603 0.746201880603</scale>
-            </mesh>
-          </geometry>
-          <max_contacts>0</max_contacts>
-        </collision>
-      </link>
-      <link name="tree28">
-        <pose>5.38228859532 1.65241249826 0 0 0 1.73558264538 </pose>
-        <visual name="visual">
-          <geometry>
-            <mesh>
-              <uri>file://models_low_res/Tree1.dae</uri>
-              <scale>0.510501199126 0.510501199126 0.510501199126</scale>
-            </mesh>
-          </geometry>
-        </visual>
-        <collision name="collision">
-          <geometry>
-            <mesh>
-              <uri>file://models_low_res/Tree1.dae</uri>
-              <scale>0.510501199126 0.510501199126 0.510501199126</scale>
-            </mesh>
-          </geometry>
-          <max_contacts>0</max_contacts>
-        </collision>
-      </link>
-      <link name="tree29">
-        <pose>4.60251303822 -4.99063192052 0 0 0 1.77266832406 </pose>
-        <visual name="visual">
-          <geometry>
-            <mesh>
-              <uri>file://models_low_res/Tree1.dae</uri>
-              <scale>0.713039441584 0.713039441584 0.713039441584</scale>
-            </mesh>
-          </geometry>
-        </visual>
-        <collision name="collision">
-          <geometry>
-            <mesh>
-              <uri>file://models_low_res/Tree1.dae</uri>
-              <scale>0.713039441584 0.713039441584 0.713039441584</scale>
-            </mesh>
-          </geometry>
-          <max_contacts>0</max_contacts>
-        </collision>
-      </link>
-      <link name="tree30">
-        <pose>5.28896604835 2.96636789607 0 0 0 0.60720659276 </pose>
-        <visual name="visual">
-          <geometry>
-            <mesh>
-              <uri>file://models_low_res/Tree2.dae</uri>
-              <scale>0.522362245626 0.522362245626 0.522362245626</scale>
-            </mesh>
-          </geometry>
-        </visual>
-        <collision name="collision">
-          <geometry>
-            <mesh>
-              <uri>file://models_low_res/Tree2.dae</uri>
-              <scale>0.522362245626 0.522362245626 0.522362245626</scale>
-            </mesh>
-          </geometry>
-          <max_contacts>0</max_contacts>
-        </collision>
-      </link>
-      <link name="tree31">
-        <pose>-7.77786756841 4.18592329673 0 0 0 3.24823906874 </pose>
-        <visual name="visual">
-          <geometry>
-            <mesh>
-              <uri>file://models_low_res/Tree1.dae</uri>
-              <scale>0.333379430187 0.333379430187 0.333379430187</scale>
-            </mesh>
-          </geometry>
-        </visual>
-        <collision name="collision">
-          <geometry>
-            <mesh>
-              <uri>file://models_low_res/Tree1.dae</uri>
-              <scale>0.333379430187 0.333379430187 0.333379430187</scale>
-            </mesh>
-          </geometry>
-          <max_contacts>0</max_contacts>
-        </collision>
-      </link>
-      <link name="tree32">
-        <pose>-2.14599313333 -3.05898152416 0 0 0 4.59062445936 </pose>
-        <visual name="visual">
-          <geometry>
-            <mesh>
-              <uri>file://models_low_res/Tree2.dae</uri>
-              <scale>0.518790907131 0.518790907131 0.518790907131</scale>
-            </mesh>
-          </geometry>
-        </visual>
-        <collision name="collision">
-          <geometry>
-            <mesh>
-              <uri>file://models_low_res/Tree2.dae</uri>
-              <scale>0.518790907131 0.518790907131 0.518790907131</scale>
-            </mesh>
-          </geometry>
-          <max_contacts>0</max_contacts>
-        </collision>
-      </link>
-      <link name="tree33">
-        <pose>-5.23507301493 4.83762044669 0 0 0 3.09134029718 </pose>
-        <visual name="visual">
-          <geometry>
-            <mesh>
-              <uri>file://models_low_res/Tree3.dae</uri>
-              <scale>0.576085691306 0.576085691306 0.576085691306</scale>
-            </mesh>
-          </geometry>
-        </visual>
-        <collision name="collision">
-          <geometry>
-            <mesh>
-              <uri>file://models_low_res/Tree3.dae</uri>
-              <scale>0.576085691306 0.576085691306 0.576085691306</scale>
-            </mesh>
-          </geometry>
-          <max_contacts>0</max_contacts>
-        </collision>
-      </link>
-      <link name="tree34">
-        <pose>2.90527836104 -0.677861613665 0 0 0 0.996310734073 </pose>
-        <visual name="visual">
-          <geometry>
-            <mesh>
-              <uri>file://models_low_res/Tree3.dae</uri>
-              <scale>0.88651019033 0.88651019033 0.88651019033</scale>
-            </mesh>
-          </geometry>
-        </visual>
-        <collision name="collision">
-          <geometry>
-            <mesh>
-              <uri>file://models_low_res/Tree3.dae</uri>
-              <scale>0.88651019033 0.88651019033 0.88651019033</scale>
-            </mesh>
-          </geometry>
-          <max_contacts>0</max_contacts>
-        </collision>
-      </link>
-      <link name="tree35">
-        <pose>-1.17150470011 -7.89393597311 0 0 0 1.92511659673 </pose>
-        <visual name="visual">
-          <geometry>
-            <mesh>
-              <uri>file://models_low_res/Tree5.dae</uri>
-              <scale>0.678159315109 0.678159315109 0.678159315109</scale>
-            </mesh>
-          </geometry>
-        </visual>
-        <collision name="collision">
-          <geometry>
-            <mesh>
-              <uri>file://models_low_res/Tree5.dae</uri>
-              <scale>0.678159315109 0.678159315109 0.678159315109</scale>
-            </mesh>
-          </geometry>
-          <max_contacts>0</max_contacts>
-        </collision>
-      </link>
-      <link name="tree36">
-        <pose>-5.22814658341 1.95998192052 0 0 0 0.056596813842 </pose>
-        <visual name="visual">
-          <geometry>
-            <mesh>
-              <uri>file://models_low_res/Tree1.dae</uri>
-              <scale>0.966506801413 0.966506801413 0.966506801413</scale>
-            </mesh>
-          </geometry>
-        </visual>
-        <collision name="collision">
-          <geometry>
-            <mesh>
-              <uri>file://models_low_res/Tree1.dae</uri>
-              <scale>0.966506801413 0.966506801413 0.966506801413</scale>
-            </mesh>
-          </geometry>
-          <max_contacts>0</max_contacts>
-        </collision>
-      </link>
-      <link name="tree37">
-        <pose>-4.15394626315 3.92462158941 0 0 0 0.446902025078 </pose>
-        <visual name="visual">
-          <geometry>
-            <mesh>
-              <uri>file://models_low_res/Tree1.dae</uri>
-              <scale>0.500456016372 0.500456016372 0.500456016372</scale>
-            </mesh>
-          </geometry>
-        </visual>
-        <collision name="collision">
-          <geometry>
-            <mesh>
-              <uri>file://models_low_res/Tree1.dae</uri>
-              <scale>0.500456016372 0.500456016372 0.500456016372</scale>
-            </mesh>
-          </geometry>
-          <max_contacts>0</max_contacts>
-        </collision>
-      </link>
-      <link name="tree38">
-        <pose>-2.84600426226 6.49653348318 0 0 0 1.06604983752 </pose>
-        <visual name="visual">
-          <geometry>
-            <mesh>
-              <uri>file://models_low_res/Tree1.dae</uri>
-              <scale>0.807771258166 0.807771258166 0.807771258166</scale>
-            </mesh>
-          </geometry>
-        </visual>
-        <collision name="collision">
-          <geometry>
-            <mesh>
-              <uri>file://models_low_res/Tree1.dae</uri>
-              <scale>0.807771258166 0.807771258166 0.807771258166</scale>
-            </mesh>
-          </geometry>
-          <max_contacts>0</max_contacts>
-        </collision>
-      </link>
-      <link name="tree39">
-        <pose>6.4244097344 3.22590548559 0 0 0 1.04763819357 </pose>
-        <visual name="visual">
-          <geometry>
-            <mesh>
-              <uri>file://models_low_res/Tree4.dae</uri>
-              <scale>0.585990441578 0.585990441578 0.585990441578</scale>
-            </mesh>
-          </geometry>
-        </visual>
-        <collision name="collision">
-          <geometry>
-            <mesh>
-              <uri>file://models_low_res/Tree4.dae</uri>
-              <scale>0.585990441578 0.585990441578 0.585990441578</scale>
-            </mesh>
-          </geometry>
-          <max_contacts>0</max_contacts>
-        </collision>
-      </link>
-      <link name="tree40">
-        <pose>0.505426587707 5.19744574735 0 0 0 3.37068315716 </pose>
-        <visual name="visual">
-          <geometry>
-            <mesh>
-              <uri>file://models_low_res/Tree4.dae</uri>
-              <scale>0.354138261392 0.354138261392 0.354138261392</scale>
-            </mesh>
-          </geometry>
-        </visual>
-        <collision name="collision">
-          <geometry>
-            <mesh>
-              <uri>file://models_low_res/Tree4.dae</uri>
-              <scale>0.354138261392 0.354138261392 0.354138261392</scale>
-            </mesh>
-          </geometry>
-          <max_contacts>0</max_contacts>
-        </collision>
-      </link>
-      <link name="tree41">
-        <pose>-4.28956528162 -5.52657860183 0 0 0 5.76056217326 </pose>
-        <visual name="visual">
-          <geometry>
-            <mesh>
-              <uri>file://models_low_res/Tree3.dae</uri>
-              <scale>0.826754449799 0.826754449799 0.826754449799</scale>
-            </mesh>
-          </geometry>
-        </visual>
-        <collision name="collision">
-          <geometry>
-            <mesh>
-              <uri>file://models_low_res/Tree3.dae</uri>
-              <scale>0.826754449799 0.826754449799 0.826754449799</scale>
-            </mesh>
-          </geometry>
-          <max_contacts>0</max_contacts>
-        </collision>
-      </link>
-      <link name="tree42">
-        <pose>-3.96817214088 -7.04630488192 0 0 0 5.48275486012 </pose>
-        <visual name="visual">
-          <geometry>
-            <mesh>
-              <uri>file://models_low_res/Tree1.dae</uri>
-              <scale>0.734397855691 0.734397855691 0.734397855691</scale>
-            </mesh>
-          </geometry>
-        </visual>
-        <collision name="collision">
-          <geometry>
-            <mesh>
-              <uri>file://models_low_res/Tree1.dae</uri>
-              <scale>0.734397855691 0.734397855691 0.734397855691</scale>
-            </mesh>
-          </geometry>
-          <max_contacts>0</max_contacts>
-        </collision>
-      </link>
-      <link name="tree43">
-        <pose>3.84672254519 -4.79821694638 0 0 0 4.23614010656 </pose>
-        <visual name="visual">
-          <geometry>
-            <mesh>
-              <uri>file://models_low_res/Tree4.dae</uri>
-              <scale>0.702104997019 0.702104997019 0.702104997019</scale>
-            </mesh>
-          </geometry>
-        </visual>
-        <collision name="collision">
-          <geometry>
-            <mesh>
-              <uri>file://models_low_res/Tree4.dae</uri>
-              <scale>0.702104997019 0.702104997019 0.702104997019</scale>
-            </mesh>
-          </geometry>
-          <max_contacts>0</max_contacts>
-        </collision>
-      </link>
-      <link name="tree44">
-        <pose>-7.98008490465 -3.79047964098 0 0 0 5.13670252357 </pose>
-        <visual name="visual">
-          <geometry>
-            <mesh>
-              <uri>file://models_low_res/Tree2.dae</uri>
-              <scale>0.574403727074 0.574403727074 0.574403727074</scale>
-            </mesh>
-          </geometry>
-        </visual>
-        <collision name="collision">
-          <geometry>
-            <mesh>
-              <uri>file://models_low_res/Tree2.dae</uri>
-              <scale>0.574403727074 0.574403727074 0.574403727074</scale>
-            </mesh>
-          </geometry>
-          <max_contacts>0</max_contacts>
-        </collision>
-      </link>
-      <link name="tree45">
-        <pose>-5.95330594683 -3.53821801952 0 0 0 1.73522770864 </pose>
-        <visual name="visual">
-          <geometry>
-            <mesh>
-              <uri>file://models_low_res/Tree1.dae</uri>
-              <scale>0.98097788304 0.98097788304 0.98097788304</scale>
-            </mesh>
-          </geometry>
-        </visual>
-        <collision name="collision">
-          <geometry>
-            <mesh>
-              <uri>file://models_low_res/Tree1.dae</uri>
-              <scale>0.98097788304 0.98097788304 0.98097788304</scale>
-            </mesh>
-          </geometry>
-          <max_contacts>0</max_contacts>
-        </collision>
-      </link>
-      <link name="tree46">
-        <pose>-5.57517212863 4.13705770537 0 0 0 0.370475673028 </pose>
-        <visual name="visual">
-          <geometry>
-            <mesh>
-              <uri>file://models_low_res/Tree1.dae</uri>
-              <scale>0.353711443633 0.353711443633 0.353711443633</scale>
-            </mesh>
-          </geometry>
-        </visual>
-        <collision name="collision">
-          <geometry>
-            <mesh>
-              <uri>file://models_low_res/Tree1.dae</uri>
-              <scale>0.353711443633 0.353711443633 0.353711443633</scale>
-            </mesh>
-          </geometry>
-          <max_contacts>0</max_contacts>
-        </collision>
-      </link>
-      <link name="tree47">
-        <pose>-4.35300240907 4.35363586952 0 0 0 0.0885011957553 </pose>
-        <visual name="visual">
-          <geometry>
-            <mesh>
-              <uri>file://models_low_res/Tree5.dae</uri>
-              <scale>0.458612166033 0.458612166033 0.458612166033</scale>
-            </mesh>
-          </geometry>
-        </visual>
-        <collision name="collision">
-          <geometry>
-            <mesh>
-              <uri>file://models_low_res/Tree5.dae</uri>
-              <scale>0.458612166033 0.458612166033 0.458612166033</scale>
-            </mesh>
-          </geometry>
-          <max_contacts>0</max_contacts>
-        </collision>
-      </link>
-      <link name="tree48">
-        <pose>1.20861183928 -0.75480673143 0 0 0 5.18471867764 </pose>
-        <visual name="visual">
-          <geometry>
-            <mesh>
-              <uri>file://models_low_res/Tree2.dae</uri>
-              <scale>0.58910923102 0.58910923102 0.58910923102</scale>
-            </mesh>
-          </geometry>
-        </visual>
-        <collision name="collision">
-          <geometry>
-            <mesh>
-              <uri>file://models_low_res/Tree2.dae</uri>
-              <scale>0.58910923102 0.58910923102 0.58910923102</scale>
-            </mesh>
-          </geometry>
-          <max_contacts>0</max_contacts>
-        </collision>
-      </link>
-      <link name="tree49">
-        <pose>-7.60731370231 -2.39724813683 0 0 0 6.16721215049 </pose>
-        <visual name="visual">
-          <geometry>
-            <mesh>
-              <uri>file://models_low_res/Tree4.dae</uri>
-              <scale>0.920455936325 0.920455936325 0.920455936325</scale>
-            </mesh>
-          </geometry>
-        </visual>
-        <collision name="collision">
-          <geometry>
-            <mesh>
-              <uri>file://models_low_res/Tree4.dae</uri>
-              <scale>0.920455936325 0.920455936325 0.920455936325</scale>
+              <scale>0.818620482047 0.818620482047 0.818620482047</scale>
             </mesh>
           </geometry>
           <max_contacts>0</max_contacts>

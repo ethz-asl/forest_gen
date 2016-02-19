@@ -2,6 +2,7 @@ from lxml import etree
 import random
 import math
 import copy
+import argparse
 from collections import namedtuple
 
 class Tree:
@@ -131,4 +132,13 @@ def gen_worlds(save_path, num_worlds, world_length, num_trees, use_high_res):
     world.save_world(save_path + '/forest' + str(i) + '.world')
 
 if __name__ == "__main__":
-    gen_worlds('./worlds', 1, 15, 50, False)
+    parser = argparse.ArgumentParser(description='Generate a random gazebo forest.')
+    parser.add_argument('--num_worlds', type=int, help='Number of worlds to generate')
+    parser.add_argument('--world_length', type=int, help='Length and width of world in m')
+    parser.add_argument('--tree_density', type=float, help='Number of trees per m^2')
+    parser.add_argument('--high_res', type=int, help='Use high res tree models')
+    args = parser.parse_args()
+
+    gen_worlds('./worlds', args.num_worlds, args.world_length, 
+               int(args.world_length*args.world_length*args.tree_density),
+               bool(args.high_res))
