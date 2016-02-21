@@ -22,7 +22,7 @@ for FILE in $DIR/worlds/*.world; do
     echo " "
     rosrun gazebo_ros gzserver $FILE &
 
-    rosservice call /world/get_octomap "{bounding_box_origin: {x: 0, y: 0, z: 7.5}, bounding_box_lengths: {x: $2, y: $2, z: 15}, leaf_size: $4, filename: '$DIR/octomaps/$NAME.bt'}" --wait
+    rosservice call /world/get_octomap "{bounding_box_origin: {x: 0, y: 0, z: 2.5}, bounding_box_lengths: {x: $2, y: $2, z: 5}, leaf_size: $4, filename: '$DIR/octomaps/$NAME.bt'}" --wait
     killall gzserver
 done
 
