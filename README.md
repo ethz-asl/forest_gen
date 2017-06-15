@@ -36,6 +36,8 @@ Helen Oleynikova, Michael Burri, Zachary Taylor, Juan Nieto, Roland Siegwart, an
 * Generation script to create environments of any size and tree density.
 * Start and end points used for planning evaluation in [1], as a CSV.
 
+![image](https://user-images.githubusercontent.com/5616392/27187849-97ec9a00-51ec-11e7-890c-b4c6d7290a4f.png)
+
 ## Planning Evaluations
 `start_and_end.csv` contains 900 free start and end points, used for the planning evaluations in [1]. All points are at least 4 meters apart and both start and goal are free space, given a bounding box of 1.2 meters by 1.2 meters by 1.0 meters. The actual bounding box used for path evaluations was 0.2 meters smaller; 1.0 meters by 1.0 meters by 0.8 meters.
 
