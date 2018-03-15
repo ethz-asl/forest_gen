@@ -5014,5 +5014,6 @@
       </link>
     </model>
     <plugin filename="librotors_gazebo_octomap_plugin.so" name="gazebo_octomap"/>
+    <plugin filename="librotors_gazebo_ros_interface_plugin.so" name="ros_interface_plugin"/>
   </world>
 </sdf>
