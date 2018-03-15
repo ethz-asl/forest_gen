@@ -45,9 +45,15 @@ class GenXML:
     self.root.append(model_el)
 
     #add octomap plugin
-    plugin_el = etree.Element('plugin', name = 'gazebo_octomap',
-                              filename = 'librotors_gazebo_octomap_plugin.so')
-    self.root.append(plugin_el)
+    oct_plug_el = etree.Element('plugin', name = 'gazebo_octomap',
+                                filename = 'librotors_gazebo_octomap_plugin.so')
+    self.root.append(oct_plug_el)
+
+    #add rotors interface plugin
+    rotors_plug_el = etree.Element('plugin', name = 'ros_interface_plugin',
+                                   filename =
+                                   'librotors_gazebo_ros_interface_plugin.so')
+    self.root.append(rotors_plug_el)
 
   def add_model(self, name_in, pose_in, scale_in, mesh_num_in, models_type):
 
