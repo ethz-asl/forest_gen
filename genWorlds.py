@@ -44,16 +44,13 @@ class GenXML:
     model_el.append(static_el)
     self.root.append(model_el)
 
-    #add octomap plugin
-    oct_plug_el = etree.Element('plugin', name = 'gazebo_octomap',
-                                filename = 'librotors_gazebo_octomap_plugin.so')
-    self.root.append(oct_plug_el)
+    #plugins
+    self.add_plugins()
 
-    #add rotors interface plugin
-    rotors_plug_el = etree.Element('plugin', name = 'ros_interface_plugin',
-                                   filename =
-                                   'librotors_gazebo_ros_interface_plugin.so')
-    self.root.append(rotors_plug_el)
+    #physics
+    self.add_physics()
+
+
 
   def add_model(self, name_in, pose_in, scale_in, mesh_num_in, models_type):
 
@@ -84,6 +81,69 @@ class GenXML:
     link_el.append(collision_el)
 
     self.root.find('model').append(link_el)
+
+  def add_plugins(self):
+    #start plugin section
+    plugins_comment_el = etree.Comment(' Plugins ')
+    self.root.append(plugins_comment_el)
+
+    #add octomap plugin
+    oct_plug_el = etree.Element('plugin', name = 'gazebo_octomap',
+                                filename = 'librotors_gazebo_octomap_plugin.so')
+    self.root.append(oct_plug_el)
+
+    #add rotors interface plugin
+    rotors_plug_el = etree.Element('plugin', name = 'ros_interface_plugin',
+                                   filename =
+                                   'librotors_gazebo_ros_interface_plugin.so')
+    self.root.append(rotors_plug_el)
+
+  def add_physics(self):
+    #start physics section
+    physics_comment_el = etree.Comment(' Physics ')
+    self.root.append(physics_comment_el)
+
+    #physics
+    physics_el = etree.Element('physics', name = 'default_physics',
+                               default = '0', type = 'ode')
+    max_step_size_el = etree.SubElement(physics_el, 'max_step_size')
+    max_step_size_el.text = '0.01'
+    real_time_factor_el = etree.SubElement(physics_el, 'real_time_factor')
+    real_time_factor_el.text = '1'
+    real_time_update_rate_el = etree.SubElement(physics_el,
+                                                'real_time_update_rate')
+    real_time_update_rate_el.text = '100'
+    gravity_el = etree.SubElement(physics_el, 'gravity')
+    gravity_el.text = '0 0 -9.8'
+    magnetic_field_el = etree.SubElement(physics_el, 'magnetic_field')
+    magnetic_field_el.text = '6e-06 2.3e-05 -4.2e-05'
+
+    #ode
+    ode_el = etree.SubElement(physics_el, 'ode')
+    #solver
+    solver_el = etree.SubElement(ode_el, 'solver')
+    type_el = etree.SubElement(solver_el, 'type')
+    type_el.text = 'quick'
+    iters_el = etree.SubElement(solver_el, 'iters')
+    iters_el.text = '1000'
+    sor_el = etree.SubElement(solver_el, 'sor')
+    sor_el.text = '1.3'
+    use_dynamic_moi_rescaling = etree.SubElement(solver_el,
+                                                 'use_dynamic_moi_rescaling')
+    use_dynamic_moi_rescaling.text = '0'
+    #constraints
+    constraints_el = etree.SubElement(ode_el, 'constraints')
+    cfm_el = etree.SubElement(constraints_el, 'cfm')
+    cfm_el.text = '0'
+    erp_el = etree.SubElement(constraints_el, 'erp')
+    erp_el.text = '0.2'
+    contact_max_correcting_vel_el = etree.SubElement(constraints_el,
+                                                  'contact_max_correcting_vel')
+    contact_max_correcting_vel_el.text = '100'
+    contact_surface_layer_el = etree.SubElement(constraints_el,
+                                                  'contact_surface_layer')
+    contact_surface_layer_el.text = '0.001'
+    self.root.append(physics_el)
 
   def output_xml(self):
     sdf = etree.Element('sdf',version='1.4')
@@ -121,10 +181,10 @@ class World:
 
     xml = GenXML()
     for tree in self.trees:
-      xml.add_model(tree.id, 
-                    tree.pose, 
-                    tree.scale, 
-                    tree.mesh_num, 
+      xml.add_model(tree.id,
+                    tree.pose,
+                    tree.scale,
+                    tree.mesh_num,
                     self.models_type)
 
     text_file = open(filename, "w")
@@ -145,6 +205,6 @@ if __name__ == "__main__":
     parser.add_argument('--high_res', type=int, help='Use high res tree models')
     args = parser.parse_args()
 
-    gen_worlds('./worlds', args.num_worlds, args.world_length, 
+    gen_worlds('./worlds', args.num_worlds, args.world_length,
                int(args.world_length*args.world_length*args.tree_density),
                bool(args.high_res))
